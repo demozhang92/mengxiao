@@ -1,1 +1,4 @@
-niccchaoccacccccimhere
+niccchaoccaqicimhere
+public void demo(){
+  System.out.println("hello,world!");
+}
