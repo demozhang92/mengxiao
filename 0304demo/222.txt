@@ -1,2 +1,4 @@
 hello. Differents is beautiful.Dare to be different.
-0304demo
+public void tt(){
+  Systom.out.println("梦笑");
+}
