@@ -3,4 +3,45 @@ yesterday,once more!
 Warning: Permanently added the RSA host key for IP address '52.74.223.119' to the list of known hosts.
 git@github.com: Permission denied (publickey).
 fatal: Could not read from remote repository.
+public class User {
+    private String name;
+    private String sex;
+    private int age;
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getSex() {
+        return sex;
+    }
+
+    public void setSex(String sex) {
+        this.sex = sex;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public User() {
+    }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "name='" + name + '\'' +
+                ", sex='" + sex + '\'' +
+                ", age=" + age +
+                '}';
+    }
+}
 

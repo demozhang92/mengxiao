@@ -1,2 +1,20 @@
 if you are live, so everything is possible.
-today is rain.
+@RestController
+@RequestMapping("/user")
+public class UserController {
+    @RequestMapping("/one")
+    public User one(){
+        User user = new User();
+        user.setName("ÕÅÈı");
+        user.setSex("ÄĞ");
+        user.setAge(18);
+        return user;
+    }
+
+    @RequestMapping("/two")
+    public String  two(){
+        return "ÄãºÃ";
+    }
+
+
+}
