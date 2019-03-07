@@ -15,6 +15,10 @@ public class UserController {
     public String  two(){
         return "ÄãºÃ";
     }
-
-
+}
+public class One {
+    @RequestMapping("/two")
+    public String teo(){
+        return "¶þ";
+    }
 }
